@@ -7,7 +7,7 @@ import javax.security.auth.login.LoginException;
 
 public class Main extends ListenerAdapter {
     public static void main(String[] args) throws LoginException {
-        JDA jda = new JDABuilder("NzEyMjQwODc2ODM5MjM5NzIw.Xsad2w.o0-YF4Yi3tvrW19kYUbiyIb1Hfg").build();
+        JDA jda = new JDABuilder("DISCORDTOKEN").build();
 
         jda.addEventListener(new HelloEvent());
         jda.addEventListener(new WelcomeMessage());
